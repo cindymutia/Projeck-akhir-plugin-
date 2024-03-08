@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      background:rgb(112, 104, 134);
+    }
+    
+    h1 {
+      margin: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #3c18be;
+      font-size: 3em;
+    }
+    
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    li {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      width: 25%;
+      font-size: 1.5rem;
+      color: #792fb6;
+      margin-bottom: 70px;
+      transition: all .2s ease-in-out;
+    }
+    
+    h3 {
+      text-transform: capitalize;
+    }
+    
+    li:hover {
+      transform: scale(1.5);
+    }
+      </style>
+  </head>
+  <body>
+    <h1>Pokemon</h1>
+    <ul id="Pokemon"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>
